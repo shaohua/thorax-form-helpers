@@ -1,0 +1,27 @@
+{
+  "name": "thorax-form-helpers",
+  "version": "0.0.1",
+  "description": "Thorax form helpers plugin",
+  "keywords": ["backbone", "handlebars", "thorax"],
+  "authors": [
+    "Ryan Eastridge <ryan@eastridge.xxx> (http://eastridge.xxx)",
+    "Kevin Decker <kpdecker@gmail.com> (http://incaseofstairs.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eastridge/thorax-form-plugins.git"
+  },
+  "engines": {
+    "node": ">=0.4.7"
+  },
+  "dependencies": {
+    "fs-watch-tree": "0.2.0"
+  },
+  "devDependencies": {
+    "jake": "~0.5",
+    "phoenix-build": "~1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jake test"
+  }
+}

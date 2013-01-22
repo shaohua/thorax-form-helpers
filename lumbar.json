@@ -1,0 +1,10 @@
+{
+  "name": "thorax-form-helpers",
+  "mixins": {
+    "thorax-form-helpers": {
+      "scripts": [
+        {"src": "src/form-helpers.js", "global": true}
+      ]
+    }
+  }
+}

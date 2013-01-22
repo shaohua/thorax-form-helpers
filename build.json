@@ -1,0 +1,28 @@
+{
+  "modules": {
+    "thorax-form-helpers": {
+      "scripts": [
+        {"src": "src/form-helpers", "global": true}
+      ]
+    },
+    "test": {
+      "mixins": [
+        "thorax",
+        "test",
+        "loaded-test-runner"
+      ],
+      "scripts": [
+        "test/src/"
+      ],
+      "static": [
+        {"src": "./test/jquery.html", "dest": "jquery/test.html"},
+        {"src": "./test/zepto.html", "dest": "zepto/test.html"}
+      ]
+    }
+  },
+  "mixins": [
+    "node_modules/phoenix-build/mixin",
+    "components/thorax",
+    "."
+  ]
+}
